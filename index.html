@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Busy Bus Map</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/37471687aa.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <nav>
+        <div class="main-nav">
+          <div class="arrow-left">
+            <img src="images/leftarrow.svg" class="icon" alt="Return to previous screen">
+          </div>
+            <h1><span id="to">To</span> Clark-Devon Hardware</h1>
+        </div>
+        <div class="sub-nav">
+          <ul class="directions">
+            <li><img src="images/icon-station-subnav.svg" class="icon" id="icon-station-subnav" alt="Station"></li>
+            <li>Washington/State</li>
+            <li><img src="images/icon-right-arrow.svg" class="icon icon-right-arrow" alt="right arrow"></li>
+            <li>151</li>
+            <li><img src="images/icon-right-arrow.svg" class="icon icon-right-arrow" alt="right arrow"></li>
+            <li><img src="images/icon-walk.svg" class="icon" alt="walk"></li>
+          </ul>
+          <ul class="duration">
+            <li>9:49-</li>
+            <li>10:14</li>
+          </ul>
+        </div>
+      </nav>
+
+      <main>
+        <div class="map">
+          <img src="images/map-group.svg" alt="Local area map">
+        </div>
+
+        <div class="header-row">
+        <ul>
+          <li id="header-line">Line</li>
+          <li id="header-dest">Destination</li>
+          <li id="header-freq">Frequency</li>
+        </ul>
+        </div>
+
+        <div class="buses">
+          <div class="bus-set" id="eastbound-buses">
+            <h2>Eastbound</h2>
+            <ul class="bus-row" id="eastbound-bus-set-1">
+              <li class="line">60</li>
+              <li class="dest">Randolph/Harbor Dr</li>
+              <li class="freq">Every 20m</li>
+            </ul>
+            <ul class="bus-row" id="eastbound-bus-set-2">
+              <li class="line">124</li>
+              <li class="dest">Navy Pier</li>
+              <li class="freq">Every 10m</li>
+            </ul>
+          </div>
+
+          <div class="bus-set">
+            <h2>Northbound</h2>
+            <ul class="bus-row" id="northbound-bus-set-1">
+              <li class="line" id="northbound-line">151</li>
+              <li class="dest" id="northbound-dest">Devon/Clark</li>
+              <li class="freq" id="northbound-freq">Every 16m</li>
+            </ul>
+          </div>
+
+          <div class="bus-set">
+            <h2>Southbound</h2>
+            <ul class="bus-row" id="southbound-bus-set-1">
+              <li class="line">J14</li>
+              <li class="dest">103rd/Stony Island</li>
+              <li class="freq">Every 15m</li>
+            </ul>
+            <ul class="bus-row" id="southbound-bus-set-2">
+              <li class="line">124</li>
+              <li class="dest">Navy Pier</li>
+              <li class="freq">Every 10m</li>
+            </ul>
+          </div>
+
+          <div class="bus-set">
+            <h2>Reroute</h2>
+            <ul class="bus-row" id="reline-bus-set-1">
+              <li class="line">6x</li>
+              <li class="dest">Jackson Park Express</li>
+              <li class="freq">N/A</li>
+            </ul>
+          </div>
+
+          <div class="bus-set">
+            <h2>Out of Service</h2>
+            <ul class="bus-row no-service">
+              <li class="line">4</li>
+              <li class="dest">Cottage Grove</li>
+              <li class="freq">Resumes 12:10 am</li>
+            </ul>
+            <ul class="bus-row no-service">
+              <li class="line">20</li>
+              <li class="dest">Madison</li>
+              <li class="freq">Resumes 12:10 am</li>
+            </ul>
+            <ul class="bus-row no-service">
+              <li class="line">157</li>
+              <li class="dest">Streeterville/Taylor</li>
+              <li class="freq">Resumes 6:00 am</li>
+            </ul>
+          </div>
+        </div>
+
+          <footer>
+          <div class="icon-tray">
+            <div class="footer-icon-set footer-icon-active">
+              <img src="images/icon-trip.svg" class="icon footer-icon" alt="Trip icon">
+              <h3 class="active">Trip</h3>
+            </div>
+            <div class="footer-icon-set">
+              <img src="images/icon-station-tray.svg" class="icon footer-icon" alt="Stations icon">
+              <h3>Stations</h3>
+            </div>
+            <div class="footer-icon-set">
+              <img src="images/icon-recent.svg" class="icon footer-icon" alt="Recent icon">
+              <h3>Recent</h3>
+            </div>
+          </div>
+          </footer>
+
+        </div>
+      </main>
+
+    </div>
+  </body>
+</html>

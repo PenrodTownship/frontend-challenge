@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="25px" viewBox="0 0 26 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Stations icon@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.9%" y="-18.4%" width="103.7%" height="128.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.848772321   0 0 0 0 0.841555211   0 0 0 0 0.841555211  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Final:-Light-Map,-Dark-UI-Copy-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-174.000000, -625.000000)" fill-opacity="0.7">
+        <g id="Bottom-Nav" filter="url(#filter-1)" transform="translate(0.000000, 618.000000)" fill="#7D7E7E" fill-rule="nonzero">
+            <g id="np_flag_1335339_000000" transform="translate(178.000000, 13.000000)">
+                <path d="M14.2231718,5.71208267 L17.8308039,1.27072463 C18.0307983,1.02409213 18.0553792,0.701348838 17.8944902,0.434492474 C17.7336012,0.16763611 17.4129387,0 17.0643601,0 L0.936273919,0 C0.418969278,0 1.49037473e-14,0.361267285 1.49037473e-14,0.807326823 L0,16.1926732 C0,16.6387327 0.418969278,17 0.936273919,17 C1.45357856,17 1.87254784,16.6387327 1.87254784,16.1926732 L1.87254784,1.61480163 L15.2642338,1.61480163 L12.3167472,5.24399885 C12.0932902,5.51953668 12.0910564,5.88467609 12.3100436,6.16213766 L15.2898511,9.92525633 L5.31702076,9.92525633 C4.79971612,9.92525633 4.38074684,10.2865236 4.38074684,10.7325832 C4.38074684,11.1786427 4.79971612,11.53991 5.31702076,11.53991 L17.0629194,11.53991 C17.4103825,11.53991 17.728814,11.3742025 17.8908185,11.109265 C18.0528259,10.8452942 18.0315971,10.5244746 17.8360705,10.2768803 L14.2231718,5.71208267 Z" id="Stations-icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>
